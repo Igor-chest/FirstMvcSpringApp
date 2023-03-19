@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HelloController {
 
-    @GetMapping("/hello-world123")
+    @GetMapping("/hello-world123")  // при переходе по адресу вызывается метод
     public String sayHello() {
         return "I know";
     }
